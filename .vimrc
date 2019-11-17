@@ -1,3 +1,5 @@
+so ~/.vim/bundle.vim
+
 set mouse-=a
 syntax on
 set tabstop=4
