@@ -1,4 +1,5 @@
 so ~/.vim/bundle.vim
+filetype plugin on
 
 set mouse-=a
 syntax on
