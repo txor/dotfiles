@@ -1,3 +1,9 @@
 [submodule ".dotfiles_gitsubmodules/powerline"]
 	path = .dotfiles_gitsubmodules/powerline
 	url = git://github.com/powerline/powerline
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule ".vim/bundle/vim-instant-markdown"]
+	path = .vim/bundle/vim-instant-markdown
+	url = https://github.com/suan/vim-instant-markdown.git

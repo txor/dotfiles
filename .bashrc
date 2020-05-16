@@ -1,4 +1,4 @@
-export PATH=$PATH:~/bin:~/.local/bin
+export PATH=$PATH:~/.local/bin
 
 if [ -d $HOME/.bashrc.d ] ; then
     # Load aliases
