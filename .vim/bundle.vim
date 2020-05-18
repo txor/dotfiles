@@ -12,7 +12,8 @@ call vundle#begin()
 " Let Vundle manage Vundle - required!
 Plugin 'VundleVim/Vundle.vim'
 
+" Vundles list
 Plugin 'suan/vim-instant-markdown'
+Plugin 'pearofducks/ansible-vim'
 
 call vundle#end()
-
