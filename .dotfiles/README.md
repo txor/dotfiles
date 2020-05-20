@@ -11,4 +11,5 @@ config reset --hard origin/master
 config branch --set-upstream-to=origin/master master
 config submodule init
 config submodule update --recursive --remote
+.dotfiles/setup.sh
 ```
