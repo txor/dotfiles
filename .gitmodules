@@ -1,3 +1,0 @@
-[submodule ".dotfiles_gitsubmodules/powerline"]
-	path = .dotfiles_gitsubmodules/powerline
-	url = git://github.com/powerline/powerline

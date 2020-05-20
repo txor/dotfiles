@@ -1,6 +1,9 @@
+# Open vim and perform a PluginUpdate before this
+
 # From https://powerline.readthedocs.io/en/latest/installation.html#repository-root
-pip install --user --editable=$HOME/.dotfiles_gitsubmodules/powerline
-ln -s $HOME/.dotfiles_gitsubmodules/powerline/scripts/powerline ~/.local/bin
+POWERLINE_PATH=$HOME/.vim/bundle/powerline
+pip install --user --editable=$POWERLINE_PATH
+ln -s $POWERLINE_PATH/scripts/powerline ~/.local/bin
 
 # From https://powerline.readthedocs.io/en/master/installation/linux.html#fontconfig
 mkdir -p ~/.local/share/fonts/
