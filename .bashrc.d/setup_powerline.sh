@@ -1,4 +1,4 @@
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-. $HOME/.dotfiles_gitsubmodules/powerline/powerline/bindings/bash/powerline.sh
+. $HOME/.vim/bundle/powerline/powerline/bindings/bash/powerline.sh

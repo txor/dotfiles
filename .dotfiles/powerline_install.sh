@@ -1,4 +1,4 @@
-# Open vim and perform a PluginUpdate before this
+# Update vim plugins berfore this: vim +'PluginUpdate' +qa
 
 # From https://powerline.readthedocs.io/en/latest/installation.html#repository-root
 POWERLINE_PATH=$HOME/.vim/bundle/powerline

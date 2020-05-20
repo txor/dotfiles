@@ -12,4 +12,6 @@ config branch --set-upstream-to=origin/master master
 config submodule init
 config submodule update --recursive --remote
 .dotfiles/setup.sh
+vim +'PluginUpdate' +qa
+.dotfiles/powerline_install.sh
 ```
