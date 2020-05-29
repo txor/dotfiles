@@ -3,6 +3,7 @@
 # From https://powerline.readthedocs.io/en/latest/installation.html#repository-root
 POWERLINE_PATH=$HOME/.vim/bundle/powerline
 pip install --user --editable=$POWERLINE_PATH
+pip install --user powerline-gitstatus
 ln -s $POWERLINE_PATH/scripts/powerline ~/.local/bin
 
 # From https://powerline.readthedocs.io/en/master/installation/linux.html#fontconfig
