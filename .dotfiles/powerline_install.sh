@@ -4,6 +4,7 @@
 POWERLINE_PATH=$HOME/.vim/bundle/powerline
 pip install --user --editable=$POWERLINE_PATH
 pip install --user powerline-gitstatus
+mkdir -p ~/.local/bin
 ln -s $POWERLINE_PATH/scripts/powerline ~/.local/bin
 
 # From https://powerline.readthedocs.io/en/master/installation/linux.html#fontconfig
