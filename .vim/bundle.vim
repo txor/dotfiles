@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Vundles list
 Plugin 'suan/vim-instant-markdown'
 Plugin 'pearofducks/ansible-vim'
+Plugin 'ycm-core/YouCompleteMe'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()

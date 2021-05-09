@@ -1,6 +1,7 @@
 # Txor dotfiles
 Setup from https://www.atlassian.com/git/tutorials/dotfiles
 
+## Manual steps for initial setup
 ```
 git init --bare $HOME/.dotfiles_git
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles_git/ --work-tree=$HOME'
@@ -13,5 +14,6 @@ config submodule init
 config submodule update --recursive --remote
 .dotfiles/setup.sh
 vim +'PluginUpdate' +qa
+.dotfiles/youcompleteme_install.sh
 .dotfiles/powerline_install.sh
 ```
