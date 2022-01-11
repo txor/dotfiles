@@ -16,4 +16,5 @@ config submodule update --recursive --remote
 vim +'PluginUpdate' +qa
 .dotfiles/youcompleteme_install.sh
 .dotfiles/powerline_install.sh
+.dotfiles/instant-markdown-d_install.sh
 ```
